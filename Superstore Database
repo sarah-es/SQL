@@ -39,4 +39,4 @@ FROM superstore;
 #Show a statistic about the price for items in the category of "Kitchen Supplies". 
 SELECT avg(price)
 FROM superstore
-WHERE category="Kitchen Supplies"
+WHERE category="Kitchen Supplies";
